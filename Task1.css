@@ -1,0 +1,407 @@
+* {
+    box-sizing: border-box;
+    margin:0px
+  }
+  .profile-pic{
+    border-radius: 50%;
+  
+  }
+  
+  .portfolio{
+      background-image: url('background img.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+     
+      height: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .navbar{
+      display:flex;
+      width: 100%;
+      padding:20px;
+      background:#5c3633;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    
+    }
+    .navbar1{
+      margin-left: auto;
+    }
+    .navbar_name{
+      color: white;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    button{
+      border: 10px;
+      font-size: 16px;
+      padding: 14px;
+      padding-left: 40px;
+      padding-right: 40px;
+      align-items: center;
+      cursor: pointer;
+      background-color:black;
+      color: white;
+      border: none;
+      border-radius: 18px;
+      font-weight: bold;
+      box-shadow: 10px 10px 10px rgba(14, 45, 172, 0.15);
+      transition: box-shadow 0.15s;
+      transition: background-color 1s,color 1s;
+    }
+    button:hover{
+      background-color:white;
+      opacity: 0.3;
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.15s);
+    }
+    a{
+      color: white;
+      }
+    img{
+      width: 200px;
+      
+      padding: 14px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+    .row{
+      padding-top:20px;
+      align-items: center;
+      text-align: center;
+      color:white;
+      font-size:30px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .row1{
+      font-size: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .row button{
+      margin-bottom: 150px;
+    }
+    p{
+      font-size: 18px;
+      text-align: center;
+      color: aliceblue;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h2{
+      font-family: 'Times New Roman', Times, serif;
+      text-decoration: underline;
+      text-align: center;
+      font-size: 40px;
+      margin: 0px; 
+    }
+    .navbar-h{
+      padding:10px;
+      background:rgb(116, 22, 37);
+    }
+    /* Animation */
+    .hm{
+      width: 100px;
+      height: 30px;
+      background: rgb(147, 15, 15);
+      padding: 5px;
+    }
+    .move{
+      width: 30px;
+      height: 30px;
+      /* background: rgb(14, 233, 90); */
+      position: relative;
+      animation-name: mymove;
+      animation-duration: 5s;
+    }
+    @keyframes mymove {
+      from {left: 0px;}
+      to {left: 100px;}
+    }
+    
+    /* About */
+    .About{
+      background-color:black ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align:center;
+      color:rgb(233, 220, 220);
+      
+      border: #912118;
+      
+      padding: 20px;
+    }
+    .about button{
+      color: #912118;
+    }
+    .experience{
+      /* background:rgb(205, 119, 134); */
+      padding: 40px;
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .exp-col{
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      max-width: 700px;
+     
+     
+      
+      align-items: center;
+      padding: 10px;
+      text-align: center;
+      background-color: #0f100f;
+     
+      font-size: 30px;
+      width: 90%;
+     }
+    
+    /* Education */
+    .Education{
+      padding: 20px;
+      /* background-color: rgb(34, 30, 30); */
+      background-color: #0f100f;
+      text-align:center;
+      height: 1000px;
+      
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+      
+    }
+    table th,td{
+      border: 1px solid rgb(12, 12, 12);
+      text-align: center;
+      color: white;
+      background-color:rgb(220, 180, 20);
+      height: 50px;
+      padding: 10px;
+    }
+    table{
+      align-items: center;
+      padding: 50px;
+    }
+    table th{
+      text-transform: uppercase;
+    }
+    .projects{
+      background-color: rgb(10, 10, 10);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      height: 90%;
+      }
+      .projectblock{
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #771891;
+        margin-top: 20px;
+  
+  
+  
+      }
+  
+  
+    .text{
+      color: white;
+      font-size: 30px;
+    }
+    
+    /* skills */
+    .Skills{
+      background: #101112; 
+      padding: 20px;
+     
+    }
+    .Skills h2{
+      margin: none;
+    }
+    .skillblock{
+      display: flex;
+      width: 90%;
+      justify-content: space-between;
+    }
+    .skill-set{
+      padding: 50px;
+      margin: 20px;
+      height: 550px;
+    }
+    .Skills p{
+      font-size: 25px;
+    }
+  
+    .html{
+      width:90%;
+      background-color: #f44336;
+      height:40px;
+      font-size: 25px;
+      color: white;
+      border-radius: 15px;
+      padding: 5px;
+    }
+    .css {
+      height:40px;
+      width: 80%;
+      background-color: #a5192e;
+      font-size: 25px;
+      color: white;
+      border-radius: 15px;
+      padding: 5px;
+    } 
+    .js{
+      height:40px;
+      width: 80%;
+      background-color: #f44336;
+      font-size: 25px;
+      color: white;
+      border-radius: 15px;
+      padding: 5px;
+    } 
+    .py{
+      color: white;
+      height:40px;
+      width: 60%;
+      background-color: #a5192e;
+      font-size: 25px;
+      border-radius: 15px;
+      padding: 5px;
+    }
+    .sql{
+      height:40px;
+      width: 80%;
+      background-color: #f44336;
+      font-size: 25px;
+      color: white;
+      border-radius: 15px;
+      padding: 5px;
+    } 
+    .reactjs{
+      height:40px;
+      width: 70%;
+      background-color: #a5192e;
+      font-size: 25px;
+      color: white;
+      border-radius: 15px;
+      padding: 5px;
+    } 
+    .container {
+      
+      width:100%;
+      padding: 20px;
+      /* background-color:rgb(207, 238, 239); */
+      border-radius: 1px;
+      border:black ;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .blockdiv{
+      width: 90%;
+      margin-top: 20px;
+      float: left;
+      min-width: 100px;
+      height: 160px;
+      background-color: #a5192e;
+    }
+    .container img{
+      width: 90px;
+      height: 90px;
+    }
+    #box1{
+      background-color: #a7281f;
+      height:400px;
+      padding-bottom: 20px;
+      width: 400px;
+      border-radius: 20px;
+     
+    }
+    #box2{
+      background-color: #912118;
+      height:400px;
+      padding-bottom: 20px;
+      width: 400px;
+      border-radius: 20px;
+    }
+    #box3{
+      background-color: #b4382f;
+      height:400px;
+      padding-bottom: 20px;
+      width: 400px;
+      border-radius: 20px;
+    }
+    
+    /* contact */
+    
+    /* Style inputs */
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    input[type=email]{
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    .column label{
+      color:black;
+    }
+    .con {
+      border-radius: 5px;
+      background-color: #e6e6f7;
+      padding: 10px;
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+    }
+    form{
+      height: 500px;
+    }
+    .row{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    /* footer */
+    .row2{
+      background-color: #5c3633;
+      text-align: center;
+      padding: 10px;
+    }
